@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'iconos';
+    src:  url('../../../src/fonts/icomoon.eot');
+    src:  url('../../../src/fonts/icomoon.eot') format('embedded-opentype'),
+      url('../../../src/fonts/icomoon.ttf') format('truetype'),
+      url('../../../src/fonts/icomoon.woff') format('woff'),
+      url('../../../src/fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.name::before{
+    font-size: 40px;
+    font-family: iconos;
+    content:"\e972"
+}
+.mail::before{
+    font-size: 40px;
+    font-family: iconos;
+    content:"\e945" ;
+}
+.birth::before{
+    font-size: 40px;
+    font-family: iconos;
+    content:"\e953" ;
+}
+.address::before{
+    font-size: 40px;
+    font-family: iconos;
+    content:"\e900" ;
+}
+.number::before{
+    font-size: 40px;
+    font-family: iconos;
+    content:"\e902" ;
+}
+.pass::before{
+    font-size: 40px;
+    font-family: iconos;
+    content:"\e901" ;
+}
+.subtitle{
+    text-align: center;
+    margin:65px 10px 10px 10px;
+    font-size: large;
+    color: darkgray;
+}
+
+.data{
+    text-align: center;
+    font-size: 32pt;
+}
+
+.contains{
+    margin-top: 150px;
+    background-color: white;
+    border-top: 1px solid rgb(211, 211, 211);
+}
+
+.listoficons li {
+    display: inline-block;
+    margin: 15px;
+}
+.listoficons li button{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: rgb(172, 172, 172);
+}
+
+.listoficons li button:hover{
+    color: forestgreen;
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+}
+
+.item{
+    margin: 10px;
+    margin-top: 20px;
+    width: 60px;
+}
