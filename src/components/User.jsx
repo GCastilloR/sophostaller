@@ -10,7 +10,6 @@ const User = (props) => {
     const [phone, setPhone] = useState("")
     const [pass, setPass] = useState("****")
     const [pic, setPic] = useState()
-    const [error, setError] = useState("")
     useEffect(() => {
         const getData = async () => {
             try {
@@ -26,7 +25,7 @@ const User = (props) => {
                 setPic(user.picture.large)
 
             } catch (error) {
-                setError(error.message)
+                console.log(error);
             }
         }
         getData()
